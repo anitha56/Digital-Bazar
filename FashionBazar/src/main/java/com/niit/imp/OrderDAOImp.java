@@ -4,6 +4,8 @@ import java.util.List;
 
 import javax.transaction.Transactional;
 
+
+
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.query.Query;
@@ -13,6 +15,8 @@ import org.springframework.stereotype.Repository;
 import com.niit.dao.OrderDAO;
 import com.niit.model.CartItem;
 import com.niit.model.OrderDetail;
+
+
 @Repository(value="orderDAO")
 @Transactional
 public class OrderDAOImp implements OrderDAO {
